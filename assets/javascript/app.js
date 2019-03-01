@@ -110,7 +110,7 @@ function incrementTimer5() {
 function startGame() {
 	$('#pokemon').html('<img src="./assets/images/sprites/0.gif">');
 	$('#answer1').html('<br />');
-	$('#answer2').html('<div id="answer" onClick="loadQuestion1();">begin</div>');
+	$('#answer2').html('<div id="answer" onClick="loadQuestion1();">Begin</div>');
 	$('#answer3').html('');
 	$('#answer4').html('');
 	$('#countDown').html('');
