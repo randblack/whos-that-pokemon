@@ -107,6 +107,14 @@ function incrementTimer5() {
 		timeRemaining = '10';
 	}
 }
+function startGame() {
+	$('#pokemon').html('<img src="./assets/images/sprites/0.gif">');
+	$('#answer1').html('<br />');
+	$('#answer2').html('<div id="answer" onClick="loadQuestion1();">begin</div>');
+	$('#answer3').html('');
+	$('#answer4').html('');
+	$('#countDown').html('');
+}
 function loadQuestion1() {
 	counter();
 	$('#pokemon').html('<img id="sprite" src="' + listOfPokemon[question].pokemon + '">');
