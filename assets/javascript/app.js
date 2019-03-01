@@ -285,7 +285,7 @@ function revealMon5() {
 	document.getElementById('sprite').className = 'spriteReveal';
 	$('#answer1').html('<br />');
 	$('#answer2').html('<div id="itsPokemon">It\'s ' + listOfPokemon[question].answer + ' !</div>');
-	$('#answer3').html('<div id="next" onClick="loadResults();">View Results</div>');
+	$('#answer3').html('<div id="results" onClick="loadResults();">View Results</div>');
 	$('#answer4').html('');
 	$('#countDown').html('');
 	clearInterval(timer);
@@ -295,7 +295,7 @@ function loadResults() {
 	$('#answer1').html('Correct Answers : ' + score + '</div>');
 	$('#answer2').html('Wrong Answers : ' + incorrect + '</div>');
 	$('#answer3').html('Unanswered : ' + unanswered + '</div>');
-	$('#answer4').html('<div id="next" onClick="loadQuestion1();">Play Again</div>');
+	$('#answer4').html('<div id="playAgain" onClick="loadQuestion1();">Play Again</div>');
 	clearInterval(timer);
 	question = 0;
 	score = 0;
