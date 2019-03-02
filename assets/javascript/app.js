@@ -151,6 +151,7 @@ function revealMon1() {
 	clearInterval(timer);
 	question++;
 	timeRemaining = '10';
+	x = 10;
 }
 function loadQuestion2() {
 	counter2();
@@ -188,6 +189,7 @@ function revealMon2() {
 	clearInterval(timer);
 	question++;
 	timeRemaining = '10';
+	x = 10;
 }
 function loadQuestion3() {
 	counter3();
@@ -225,6 +227,7 @@ function revealMon3() {
 	clearInterval(timer);
 	question++;
 	timeRemaining = '10';
+	x = 10;
 }
 function loadQuestion4() {
 	counter4();
@@ -262,6 +265,7 @@ function revealMon4() {
 	clearInterval(timer);
 	question++;
 	timeRemaining = '10';
+	x = 10;
 }
 function loadQuestion5() {
 	counter5();

@@ -5,6 +5,9 @@ body {
 	background-color: #c4002a;
 	margin: 0px;
 }
+body {
+	cursor: default;
+}
 #dexDiv {
 	height: 28px;
 	background-color: #df0025;
@@ -23,13 +26,11 @@ body {
 }
 #pokemonHeight {
 	width: 165px;
-	height: 145px;
+	height: 155px;
 	margin: auto;
 	padding-top: 20px;
-	background: linear-gradient(45deg, transparent 15px, #e6e6e6 0) bottom left;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	background-image: url('../images/screen-01.png');
+	background-size: 100%;
 }
 div#pokemon {
 	width: 125px;
